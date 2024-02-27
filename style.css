@@ -1,0 +1,92 @@
+ .top{
+    padding: 25px;
+    margin: 10px;
+}
+a{
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav-item{
+    font-size: smaller;
+}
+.dopdown-item{
+    padding: 0;
+    font-size: small;
+    margin: 3px;
+
+}
+
+ /* Add some basic styling */
+ body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Make the image responsive */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Remove extra space below image */
+    margin: auto; /* Center the image */
+}
+
+/* Add some padding to the container for better visualization */
+.container {
+    padding: 20px;
+}
+
+/* Apply media query for responsiveness */
+@media (max-width: 600px) {
+    img {
+        width: 100%; /* Make the image full width on smaller screens */
+    }
+}
+
+
+.dro{
+
+  background-image:url(https://images.unsplash.com/photo-1559525839-b184a4d698c7?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover ;
+}
+
+.ri{
+    text-align: center;
+    font-size: x-large;
+    color: white;
+  
+}
+
+.card-text{
+    color: black;
+}
+
+.card-text{
+    color: black;
+    font-size: medium;
+}
+
+.card-text{
+    font-size: smaller; 
+}
+
+
+.ma{
+    color: black;
+    font-style: italic;
+}
+
+
+.wor{
+ 
+    display: flex;
+
+    
+}
+
+#ok :hover{
+    transform: translateY(-20px);
+    opacity: 1;
+
+}
